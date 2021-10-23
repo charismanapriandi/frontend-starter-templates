@@ -1,0 +1,35 @@
+{
+  "name": "front-end-structure",
+  "version": "1.0.0",
+  "description": "base template for development frontend website",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "gulp watch",
+    "build": "gulp"
+  },
+  "keywords": [
+    "pug",
+    "scss",
+    "gulp",
+    "frontend",
+    "web",
+    "developer"
+  ],
+  "author": "Charisman Afriandi",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "nodemon": "^2.0.14",
+    "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "live-server": "^1.2.1"
+  }
+}

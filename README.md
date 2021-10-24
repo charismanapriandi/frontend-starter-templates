@@ -1,13 +1,18 @@
 ## Get Started
-### prerequisite
+### Feature
+- compile scss to css
+- compile pug template to html
+- include jquery
+- minify image
+### Prerequisite
 1. install node.js
 2. install gulp globally
-### installation
+### Installation
 1. clone repository
 2. install dependencies with $ **npm run install**
-### development
+### Development
 $ npm run dev
-### run server 
+### Run server 
 $ npm start
-### build
+### Build
 $ npm run build

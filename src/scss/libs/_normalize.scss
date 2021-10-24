@@ -3,30 +3,27 @@ html {
   min-height: 100vh;
 }
 
-body {
-  margin:0;
-
-	& * {
-		position: relative;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: center;
-		box-sizing: border-box;
-		text-transform: none;
-		text-align: left;
-		font-family: Arial, sans-serif;
-		font-weight: normal;
-		line-height: normal;
-		letter-spacing: normal;
-    outline: none;
+body * {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	box-sizing: border-box;
+	text-transform: none;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	letter-spacing: normal;
+  outline: none;
+	outline-offset: initial;
+  border: none;
+  transition: all .3s ease-in-out;
+  
+	&:focus {
+		outline: none;
 		outline-offset: initial;
-    transition: all .3s ease-in-out;
-    
-		&:focus {
-			outline: none;
-			outline-offset: initial;
-		}
-	}
+  }
 }
 
 img { 
@@ -42,12 +39,6 @@ a, a:hover, a:focus, a:active{
   text-decoration: none;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 button, input[type="submit"], input[type="reset"] {
 	background: none;
 	color: inherit;
@@ -56,4 +47,10 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

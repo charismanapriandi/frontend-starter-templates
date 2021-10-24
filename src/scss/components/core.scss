@@ -2,18 +2,18 @@
   max-width: 100%;
   margin: 0 auto;
   @include breakpoint ('sm') {
-    max-width: 575px;
+    max-width: $sm;
   }
   @include breakpoint ('md') {
-    max-width: 768px;
+    max-width: $md;
   }
   @include breakpoint ('lg') {
-    max-width: 1024px;
+    max-width: $lg;
   }
   @include breakpoint ('xl') {
-    max-width: 1280px;
+    max-width: $xl;
   }
   @include breakpoint ('xxl') {
-    max-width: 1536px;
+    max-width: $xxl;
   }
 }

@@ -7,12 +7,15 @@
 ### Prerequisite
 1. install node.js
 2. install gulp globally
-### Installation
+### How to use
 1. clone repository
 2. install dependencies with $ **npm run install**
+3. build all package using $ **npm run build**
+4. start server
 ### Development
 $ npm run dev
-### Run server 
+development command will watch all file in src folder.
+### Server 
 $ npm start
 ### Build
 $ npm run build

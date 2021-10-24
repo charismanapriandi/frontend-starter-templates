@@ -14,7 +14,7 @@
 4. start server
 ### Development
 $ npm run dev
-development command will watch all file in src folder.
+- development command will watch all file in src folder.
 ### Server 
 $ npm start
 ### Build

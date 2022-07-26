@@ -19,3 +19,6 @@ $ npm run dev
 $ npm start
 ### Build
 $ npm run build
+
+## templates created with these tools
+- Pelayanan Masyarakat BNN Kabupaten Sleman: https://github.com/charismanapriandi/pelayanan-masyarakat-BNN
